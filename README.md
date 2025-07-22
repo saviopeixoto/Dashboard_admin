@@ -24,3 +24,7 @@ Este puglin é um adicional ao pluguin de dashboard ja criado pela comunidade, m
 ## Contribuições
 
 Pull requests e melhorias são bem-vindos!
+
+ 
+  ## imagem
+  <img width="1710" height="847" alt="image" src="https://github.com/user-attachments/assets/a5ad6e74-61eb-4d75-9e4a-38722c34b72a" />
