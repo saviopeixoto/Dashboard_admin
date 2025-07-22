@@ -253,8 +253,6 @@ $total_fechados = $row_fechados['total_fechados'];
 	<div class="content">
 		<div class="metric5"><?php echo $total_todos;?></div>
 		<div class="metric-small5"></div>
-						<?php echo '<h5>2024 -> 24674</h5>' ?>
-						<?php echo '<h5>2023 -> 21614</h5>' ?>
 	</div>
 </div>
 
