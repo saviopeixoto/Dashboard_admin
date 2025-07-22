@@ -5,7 +5,6 @@
 /*
 ** Author: Savio Rodrigues  
 ** Email : saviodevweb@gmail.com / savio.rodrigues@emgetis.se.gov.br
-** EMGETIS Empresa Sergipana de Tecnologia da Informação  2025 / Z-doc
 */
 
 
@@ -163,14 +162,12 @@ $result = $DB->query($sql_total_andamento);
 $data = $DB->fetchAssoc($result);
 $total_todos_andamento = $data['total_geral_andamento'];
 //--------------------------------------------------------------------------------------------------------------------------------
-// Total de todos 2025
 $sql_total_todos = "SELECT COUNT(*) AS total_geral FROM glpi_tickets WHERE YEAR(date) = 2025 $entidade";
 $result = $DB->query($sql_total_todos);
 $data = $DB->fetchAssoc($result);
 $total_todos = $data['total_geral'];
 $resultado = "<h2>Chamados de " . date('Y') . "</h2><ul>";
 //-------------------------------------------------------------------
-// Consulta para contar o total de chamados fechados (status = 6) de acordo com a entidade
 $query_fechados = "
 SELECT COUNT(*) AS total_fechados
 FROM glpi_tickets
@@ -199,13 +196,13 @@ $total_fechados = $row_fechados['total_fechados'];
 	<link rel="icon" href="../img/dash.ico" type="image/x-icon" />
    <link rel="shortcut icon" href="../img/dash.ico" type="image/x-icon" />
 	<script src="../js/jquery.js"></script>    
-	<script src="moment.js"></script>	<!--- TEMPO E DATA---> 
-	<script src="jquery.easypiechart.js"></script> <!--- Total de Chamados/chamados hoje--->
-	<script src="gauge.js"></script>	<!-- ???--->
+	<script src="moment.js"></script>	
+	<script src="jquery.easypiechart.js"></script> 
+	<script src="gauge.js"></script>	
 	<script src="chart.js"></script>
-    <script src="jquery-sparkline.js"></script>		<!--- ???--->	
-    <script src="../js/bootstrap.min.js"></script>   <!-- linha do total de chamados e prazo--->
-    <script src="controlfrog-plugins.js"></script> <!-- Requisição ou incidente -->
+    <script src="jquery-sparkline.js"></script>		
+    <script src="../js/bootstrap.min.js"></script>   
+    <script src="controlfrog-plugins.js"></script> 
 	<link href="../css/font-awesome.css" type="text/css" rel="stylesheet" /> 
 	<script src="../js/highcharts.js" type="text/javascript" ></script>
 	<!--<script src="../js/highcharts-3d.js" type="text/javascript" ></script>-->
