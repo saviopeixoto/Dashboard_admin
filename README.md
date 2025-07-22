@@ -15,7 +15,7 @@ Este puglin é um adicional ao pluguin de dashboard ja criado pela comunidade, m
 1. Clone ou baixe este repositório.
 2. Copie a pasta `dashboard_admin` para o diretório `glpi/plugins/dashboard/front/metrics' do GLPI.
 3. Acesse o diretório "dashboard/front" e nos arquivos index,index1 e index2
-4. Procure a <div> metrics e referencie aos arquivos.
+4. Procure a DIV metrics e referencie aos arquivos.
 
 ## Requisitos
 
